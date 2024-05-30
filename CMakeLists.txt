@@ -224,6 +224,8 @@ endif(CUDA_FOUND)
   ${CMAKE_CURRENT_BINARY_DIR}
 )  
 
+add_dependencies(hesai_ros_driver_node hesai_ros_driver_generate_messages_cpp)
+
 #Ros#
 if($ENV{ROS_VERSION} MATCHES "1")
   target_link_libraries(hesai_ros_driver_node  ${ROS_LIBS})
