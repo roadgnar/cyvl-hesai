@@ -118,7 +118,7 @@ According to the configuration of a single lidar, multiple drivers can be create
     - driver:              
         udp_port: 2368                  
         ptc_port: 9347              
-        device_ip_address: 192.168.1.201          
+        device_ip_address: 192.222.2.201          
         pcap_path: "<The PCAP file path>"                  
         correction_file_path: "<The correction file path>" 
         firetimes_path: "<Your firetime file path>"       
@@ -140,7 +140,7 @@ According to the configuration of a single lidar, multiple drivers can be create
     - driver:               
         udp_port: 2368                         
         ptc_port: 9347                           
-        device_ip_address: 192.168.1.201                  
+        device_ip_address: 192.222.2.201                  
         pcap_path: "<The PCAP file path>"                   
         correction_file_path: "<The correction file path>"  
         firetimes_path: "<Your firetime file path>"        
