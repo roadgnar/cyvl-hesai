@@ -1,4 +1,6 @@
 # Introduction to HesaiLidar_ROS_2.0
+[Check out the Cyvl notion page for info on how to run it!](https://www.notion.so/cyvl/8154f38883b6410e8fb2f9cf7b3aad90?v=129095aa6d1b4befac6bf81364a79c94&p=1261410316894bf0963e14f430d95d4a&pm=s)
+
 This repository includes the ROS Driver for Hesai LiDAR sensor manufactured by Hesai Technology. 
 Developed based on [HesaiLidar_SDK_2.0](https://github.com/HesaiTechnology/HesaiLidar_SDK_2.0), After launched, the project will monitor UDP packets from Lidar,parse data and publish point cloud frames into ROS topic
 
